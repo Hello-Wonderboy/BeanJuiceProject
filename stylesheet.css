@@ -1,0 +1,32 @@
+header{
+    height: 500px;
+    background: url(images/coffee-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar ul{
+    font-family: "permanent marker", sans-serif;
+    list-style-type: none;
+    font-size: 30px;
+    color: red;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: hsla(44, 91%, 21%, 0.582);
+    display: block;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.navbar a:hover{
+    background-color: hsla(44, 49%, 67%, 0.582);
+}
+
+.navbar li{
+    float: left;
+}
